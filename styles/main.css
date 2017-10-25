@@ -1,9 +1,11 @@
 * {
     box-sizing: border-box;
 }
-h1 {
-    font-family :'Oswald', sans-serif;
-}
+
+a {
+    color: #a5a5a5;
+    text-decoration: none;  }
+
 
 body {
     background-color: #130B06;
@@ -18,6 +20,67 @@ body {
 img {
     width: 33%;
 }
+h1 {
+    font-family :'Oswald', sans-serif;
+    color: #FFE301;
+    
+}
+header {
+    border: 2px solid #663399;
+    width: 90vw;
+    height: 90vh;
+    margin: 0 auto;
+    padding: 15px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.header-box {
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/orlando-nite.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+    
+    
+    
+}​
+
+
+header > h1{
+    text-align: center;
+    padding: 20px;
+    height: 30px;
+}
+
+header > h2 {
+    text-align: center;
+    padding: 20px;
+    height: 15px;
+}
+
+
+
+.main-nav {
+    position: absolute;
+    top: 0;
+    margin: auto;
+    left: 0;
+    right: 1000px;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+}
+
+
+
+
+
 
 .divider {
     display: flex;
@@ -37,4 +100,14 @@ img {
 .next-section {
     flex-basis: 16%;
     padding: 3px;
+}
+
+@media screen and (max-width:536px){
+    body {
+        width: 90%; 
+        padding: 30px;
+    }
+    .divider-stripe-left-parent, .divider-stripe-right-parent {
+        padding: 0px;
+    }
 }

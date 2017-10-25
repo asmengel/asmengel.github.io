@@ -14,9 +14,14 @@
 
 <body>
     <header>
+        <div class='header-box'>
         <h1>Anthony Mengel</h1>
+        <h2 class="sub-head">Full-stack web developer based in Orlando Florida</h2>
+        </div>
+    </header>
+   
         <nav class="main-nav">
-            <ul>
+            <!-- <ul class="top-nav-content"> -->
                 <li class="main-nav-link">
                     <a href="#about">About me</a>
                 </li>
@@ -26,14 +31,29 @@
                 <li class="main-nav-link">
                     <a href="#contact">Contact me</a>
                 </li>
-            </ul>
+            <!-- </ul> -->
         </nav>
-    
+        <div id="about">
+        <div class="divider"> 
+            <div class="divider-stripe-left-parent">
+                <div class="divider-stripe-left"></div>
+                <div class="divider-stripe-left"></div>
+                <div class="divider-stripe-left"></div>
+            </div> 
+            <h2 class="next-section">About me</h2>
+            <div class="divider-stripe-right-parent">
+                    <div class="divider-stripe-right"></div>
+                    <div class="divider-stripe-right"></div>
+                    <div class="divider-stripe-right"></div>
+            </div>
+        
+            </div>
 
+            
         <img class="headshot" src="./images/starterHeadshot.jpg" alt="Anthony S. Mengel headshot">
 
-        <p class="about" id="about">
-            Hi, I'm Anthony Mengel, a full-stack web developer from Orlando, FL. I use the MERN stack to build web apps which leave you
+        <p class="about-paragraph">
+            Hi, I'm Anthony Mengel, a full-stack web developer from Orlando, FL. I use the MERN(mongoDB, Express, React, nodeJS) stack to build web apps which leave you
             with both a simpler and more beautiful life. Outside of coding I enjoy playing Video Games, eating tacos, and
             racing cars.
         </p>
@@ -47,7 +67,8 @@
                             <a href="https://www.github.com/asmengel" target="_blank">GitHub</a>
             </ul>
         </nav>
-    </header>
+        </div>
+    
     <div class="divider"> 
     <div class="divider-stripe-left-parent">
         <div class="divider-stripe-left"></div>
@@ -63,62 +84,7 @@
 
     </div>
     <section class="work" id="work">
-        <section class="project">
-            <h3>Frobnicator</h3>
-            <img class="project-image" src="http://unsplash.it/350/150?random&amp;bust=1" alt="Frobnicator screenshot">
-            <p class="project-description">
-                A frob which allows you to frobnicate other frobs.
-            </p>
-            <ul class="project-stack">
-                <li class="project-stack-item">
-                    React
-                </li>
-                <li class="project-stack-item">
-                    Redux
-                </li>
-                <li class="project-stack-item">
-                    Node.js
-                </li>
-            </ul>
-            <nav class="project-links">
-                <ul>
-                    <li class="project-link project-link-live">
-                        <a href="#">Live demo</a>
-                    </li>
-                    <li class="project-link project-link-github">
-                        <a href="#">Source code</a>
-                    </li>
-                </ul>
-            </nav>
-        </section>
-        <section class="project">
-            <h3>FooBar</h3>
-            <img class="project-image" src="http://unsplash.it/350/150?random&amp;bust=2" alt="FooBar screenshot">
-            <p class="project-description">
-                A foo which allows you to bar other bazes.
-            </p>
-            <ul class="project-stack">
-                <li class="project-stack-item">
-                    React
-                </li>
-                <li class="project-stack-item">
-                    Redux
-                </li>
-                <li class="project-stack-item">
-                    Node.js
-                </li>
-            </ul>
-            <nav class="project-links">
-                <ul>
-                    <li class="project-link project-link-live">
-                        <a href="#">Live demo</a>
-                    </li>
-                    <li class="project-link project-link-github">
-                        <a href="#">Source code</a>
-                    </li>
-                </ul>
-            </nav>
-        </section>
+        
         <section class="project">
             <h3>Amazing Playlist Builder</h3>
             <img class="project-image" src="http://unsplash.it/350/150?random&amp;bust=3" alt="Amazing Playlist Builder screenshot">
