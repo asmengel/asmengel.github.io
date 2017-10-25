@@ -25,7 +25,7 @@ h1 {
     color: #FFE301;
     
 }
-header {
+header, .apb-project, .stormChaser-project {
     border: 2px solid #663399;
     width: 90vw;
     height: 90vh;
