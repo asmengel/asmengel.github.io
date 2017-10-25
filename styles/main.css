@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+h1 {
+    font-family :'Oswald', sans-serif;
+}
+
+body {
+    background-color: #130B06;
+    color: #FAF0FA;
+    font-family: "Josefin Sans", sans-serif;
+    size: 16px;
+    position: relative;
+    text-align: center;
+    /* padding: 35px; */
+    
+}
+img {
+    width: 33%;
+}
+
+.divider {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.divider-stripe-left-parent, .divider-stripe-right-parent {
+    flex-basis: 42%;
+
+}
+
+.divider-stripe-left, .divider-stripe-right {
+    border-bottom: 2px solid #663399;
+    padding: 3px;
+}
+
+.next-section {
+    flex-basis: 16%;
+    padding: 3px;
+}
