@@ -21,7 +21,6 @@ img {
     width: 33%;
 }
 h1 {
-    font-family :'Oswald', sans-serif;
     color: #FFE301;
     
 }
@@ -43,32 +42,31 @@ header, .apb-project, .stormChaser-project {
     background-position: 50% 50%;
     display: block;
     
-    
-    
-}​
-
-
-header > h1{
-    text-align: center;
-    padding: 20px;
-    height: 30px;
 }
 
-header > h2 {
-    text-align: center;
-    padding: 20px;
-    height: 15px;
+
+header div h1 {
+    position: relative;
+    top: 500px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    color: #FFE301;
+}
+
+header div  h2 {
+    position: relative;
+    top: 550px;
+    font-size: 25px;
 }
 
 
 
 .main-nav {
-    position: absolute;
-    top: 0;
+    position: fixed;
+    top: 20px;
     margin: auto;
-    left: 0;
-    right: 1000px;
-    width: 100%;
+    right: 20px;
+    width: 40%;
     list-style: none;
     display: flex;
     flex-direction: row;
