@@ -24,18 +24,28 @@ h1 {
     color: #FFE301;
     
 }
-header, .apb-project, .stormChaser-project {
-    border: 2px solid #663399;
+header {
     width: 90vw;
     height: 90vh;
     margin: 0 auto;
     padding: 15px;
     margin-bottom: 30px;
-    margin-top: 30px;
+    margin-top: 35px;
+}
+
+.apb-project, .stormChaser-project {
+    border: 2px solid #0099ff;
+    width: 90vw;
+    height: 90vh;
+    margin: 0 auto;
+    padding: 15px;
+    margin-bottom: 30px;
+    margin-top: 35px;
 }
 .header-box {
     height: 100%;
     width: 100%;
+    padding-top: 10px;
     background-image: url("../images/orlando-nite.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -91,7 +101,7 @@ header div  h2 {
 }
 
 .divider-stripe-left, .divider-stripe-right {
-    border-bottom: 2px solid #663399;
+    border-bottom: 2px solid #2d1eff;
     padding: 3px;
 }
 
