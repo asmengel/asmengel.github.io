@@ -1,3 +1,5 @@
+/* Reset */
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -48,6 +50,8 @@ a:hover {
   cursor: pointer;
   text-decoration: underline;
   color: #3e7696; }
+
+  /* Site CSS */
 
 * {
   box-sizing: border-box; }
@@ -641,5 +645,3 @@ header, footer {
 
 .nowrap {
   white-space: nowrap; }
-
-/*# sourceMappingURL=main.css.map */

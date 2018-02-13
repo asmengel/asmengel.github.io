@@ -234,8 +234,6 @@ footer .tooltipText {
 	display: none;
 }
 
-
-
 @media screen and (min-width: 460px) {
 	.flexList ul {
 		overflow: auto;
@@ -246,7 +244,6 @@ footer .tooltipText {
 		padding-right: 2%;
 	}
 }
-
 
 @media screen and (min-width: 768px), print {
 	#printButton {
